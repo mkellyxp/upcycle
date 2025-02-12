@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=LibreOffice
+GenericName=Office Suite
+Comment=The LibreOffice productivity suite
+Exec=libreoffice %U
+Terminal=false
+Type=Application
+Icon=libreoffice
+Categories=Office;
+MimeType=application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.spreadsheet;application/vnd.oasis.opendocument.presentation;application/vnd.oasis.opendocument.graphics;application/vnd.oasis.opendocument.formula;application/vnd.oasis.opendocument.chart;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.presentationml.presentation;
+StartupNotify=true
