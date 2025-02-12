@@ -1,0 +1,18 @@
+Start -> Control Centere
+
+Desktop
+
+- Choose Wallpaper -> Space
+
+- Customize Look and Feel -> Widget Arc-Dark
+
+- Edit System Monitor -> background no
+
+
+Session
+
+- Login Manager -> Dark City + BG Image Space
+
+- User Desktop Session
+	. startup -> uncomment conman
+	. desktop-session.conf -> Load Conky="false"
