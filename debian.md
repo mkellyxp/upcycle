@@ -14,3 +14,8 @@ sudo dpkg-reconfigure unattended-upgrades
 sudo nano /etc/lightdm/lightdm.conf
 ```
 Uncomment out `greeter-hide-users=false` in [Seat:*]
+
+## Chromebook Audio
+```
+sudo apt install firmware-intel-sound firmware-sof-signed alsa-ucm-conf
+```
