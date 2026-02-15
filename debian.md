@@ -19,3 +19,11 @@ Uncomment out `greeter-hide-users=false` in [Seat:*]
 ```
 sudo apt install firmware-intel-sound firmware-sof-signed alsa-ucm-conf -y
 ```
+
+## Keyboard Shortcuts
+
+Volume Up
+`pactl set-sink-volume @DEFAULT_SINK@ +5%`
+
+Volume Down
+`pactl set-sink-volume @DEFAULT_SINK@ -5%`
