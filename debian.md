@@ -5,7 +5,7 @@
 ## Auto Update & Base Stuff
 ```
 sudo apt update && sudo apt upgrade -y
-sudo apt install unattended-upgrades brightnessctl -y
+sudo apt install unattended-upgrades brightnessctl gdebi -y
 sudo dpkg-reconfigure unattended-upgrades
 ```
 
