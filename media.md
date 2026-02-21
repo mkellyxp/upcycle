@@ -1,6 +1,7 @@
 Log In
 ```
 ssh osmc@osmc.local
+pw: osmc
 ```
 
 Get IP
