@@ -5,7 +5,7 @@
 ## Auto Update & Base Stuff
 ```
 sudo apt update && sudo apt upgrade -y
-sudo apt install unattended-upgrades brightnessctl gdebi -y
+sudo apt install unattended-upgrades brightnessctl gdebi gnome-system-tools -y
 sudo dpkg-reconfigure unattended-upgrades
 ```
 
