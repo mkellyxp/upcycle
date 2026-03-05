@@ -39,3 +39,5 @@ sudo fio --name=seqread --filename=/dev/sdb --rw=read --bs=1M --iodepth=16 --num
 `
 sudo ntfsfix /dev/sdb3 && sudo mount -t ntfs-3g /dev/sdb3 /mnt/test
 `
+
+NIST 800-88
