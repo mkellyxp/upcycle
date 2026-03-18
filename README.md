@@ -5,16 +5,16 @@
 lsblk -d -o name,rota
 `
 
-## Spinner Zero
+## Spinner Zero Out Drive
 `
 sudo dd if=/dev/zero of=/dev/sdX bs=1M status=progress
 `
 
-## SATA SSD Erase
+## SATA Erase
 ```
-sudo hdparm -I /dev/sdX | grep frozen
-sudo hdparm --user-master u --security-set-pass p /dev/sdX
-sudo hdparm --user-master u --security-erase p /dev/sdX
+sudo hdparm -I /dev/sda | grep frozen
+sudo hdparm --user-master u --security-set-pass p /dev/sda
+sudo hdparm --user-master u --security-erase p /dev/sda
 ```
 
 ## NVME Erase
